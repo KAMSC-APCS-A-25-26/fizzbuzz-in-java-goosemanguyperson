@@ -10,5 +10,24 @@ public class FizzBuzz {
      */
     public static void main(String[] args) {
         // TODO
+        for(int j=1; j<101; j++)
+        {
+            if(j%15==0)
+            {
+                System.out.println("FizzBuzz");
+            }
+            else if(j%5==0)
+            {
+                System.out.println("Buzz");
+            }
+            else if(j%3==0)
+            {
+                System.out.println("Fizz");
+            }
+            else
+            {
+                System.out.println(j);
+            }
+        }
     }
 }
